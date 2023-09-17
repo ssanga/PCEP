@@ -1,5 +1,5 @@
 # PCEP
-Repository with examples for PCEP python exam certification
+Repository with examples for PCEP™ – Certified Entry-Level Python Programmer python exam certification
 
 ## The official web page for the certification: 
 https://pythoninstitute.org/pcep
