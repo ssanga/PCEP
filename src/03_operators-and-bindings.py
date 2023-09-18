@@ -8,3 +8,5 @@ print(~a)
 print(-a - 1)
 
 print(bin(~a))
+
+# prueba desde el pc virtual
