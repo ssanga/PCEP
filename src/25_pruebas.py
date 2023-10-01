@@ -60,3 +60,22 @@ for num in range(1, 10, 2):
     # print(num)
     if num % 3:
         print(num)
+
+    
+# Ver con ChatGPT
+values = ['Kevin Bacon', 60, '555-555-5555', False]
+val = not values[1] #False
+val = not values[-1] #True
+print(val)
+
+# num = input("Enter a float value: ")
+# new_num = num // 100
+# print(new_num)
+
+t = ("sandy", "mandy", "candy", "andy")
+
+print(sorted(t))
+
+Z = 19 % 4 + 15 / 2 * 3
+print(19 % 4)
+print(Z)
