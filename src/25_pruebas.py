@@ -79,3 +79,46 @@ print(sorted(t))
 Z = 19 % 4 + 15 / 2 * 3
 print(19 % 4)
 print(Z)
+
+others = 0
+for i in range(2):
+    for j in range(2):
+        if i != j:
+            others += 1
+else:
+    others +=1
+print(others)
+
+list_one = [1,2]
+list_two = list_one
+list_two.append(3)
+print(list_one[-1])
+
+train_speed = {"AAA" : 201, "TGV": 320, "Shinkasen": 320}
+for train in train_speed:
+    print(train[0], end="")
+
+power = 1
+while power < 5:
+    power += 1
+    print("@", end="")
+    if power == 3:
+        break
+else:
+    print("@")
+
+torque = 5
+while torque > 0:
+    torque -= 3
+    print("*", end="")
+else:
+    print("*")
+
+def process(data):
+    data = [1,2,3]
+    return data[-2]
+
+measurements = [0 for i in range(3)]
+print(measurements)
+process(measurements)
+print(measurements[-2])
