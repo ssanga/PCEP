@@ -122,3 +122,21 @@ measurements = [0 for i in range(3)]
 print(measurements)
 process(measurements)
 print(measurements[-2])
+
+for i in range(2, 5):
+    print(i)
+
+
+list_one = [1, 2]
+list_two = list_one[:]
+list_two.append(3)
+print(list_one[-1])
+
+
+# def sample(value):
+#     return value
+
+# total = 0
+# new_total = sample()
+# new_total = sample(total)
+# print(total)
