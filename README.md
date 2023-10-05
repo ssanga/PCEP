@@ -1,4 +1,4 @@
-# PCEP
+# PCEP-30-02
 Repository with examples for PCEP™ – Certified Entry-Level Python Programmer python exam certification
 
 ## The official web page for the certification: 
