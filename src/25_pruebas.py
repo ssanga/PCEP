@@ -140,3 +140,22 @@ print(list_one[-1])
 # new_total = sample()
 # new_total = sample(total)
 # print(total)
+
+print('--------')
+angle =0
+for i in range(5):
+    print(i, i % 2)
+
+print('--------')
+power = 2
+while power < 5:
+    power +=1
+    if power == 3:
+        continue
+    print("@")
+else:
+    print("@")
+
+print('--------')
+planets = 1 + 2 * 3 // 4
+print(planets)
